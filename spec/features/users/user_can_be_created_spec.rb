@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "User registration form" do
+RSpec.describe "User registration form", type: :feature do
   it "creates new user" do
     visit root_path
 
